@@ -113,7 +113,7 @@ namespace MASMA.MergeSort
             {
                 for (int i = 1; i < Utils.AgentPool.Count; i += 2)
                 {
-                    Send(Utils.AgentPool[i++], new BaseMessage<int>
+                    Send(Utils.AgentPool[i], new BaseMessage<int>
                     {
                         Message = new Message<int>
                         {
